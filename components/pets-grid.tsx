@@ -6,31 +6,31 @@ import Link from "next/link"
 const pets = [
   {
     id: "cats",
-    name: "Кошки",
-    description: "Грациозные и независимые компаньоны, которые наполнят ваш дом уютом и теплом.",
+    name: "Cats",
+    description: "Graceful and independent companions that will fill your home with coziness and warmth.",
     image: "/images/cat.jpg",
-    facts: ["Живут 12-18 лет", "Спят 12-16 часов в день"],
+    facts: ["Live 12-18 years", "Sleep 12-16 hours a day"],
   },
   {
     id: "dogs",
-    name: "Собаки",
-    description: "Верные друзья и преданные защитники, которые всегда рады вашему возвращению.",
+    name: "Dogs",
+    description: "Loyal friends and dedicated protectors who are always happy to see you.",
     image: "/images/dog.jpg",
-    facts: ["Живут 10-13 лет", "Нужны прогулки 2 раза в день"],
+    facts: ["Live 10-13 years", "Need walks 2-3 times a day"],
   },
   {
     id: "birds",
-    name: "Птицы",
-    description: "Яркие и музыкальные питомцы, которые украсят ваш дом пением и красотой.",
+    name: "Birds",
+    description: "Bright and musical pets that will decorate your home with songs and beauty.",
     image: "/images/bird.jpg",
-    facts: ["Живут 5-15 лет", "Общительны и умны"],
+    facts: ["Live 5-15 years", "Social and intelligent"],
   },
   {
     id: "fish",
-    name: "Рыбки",
-    description: "Завораживающие обитатели аквариума, создающие атмосферу спокойствия.",
+    name: "Fish",
+    description: "Fascinating aquarium inhabitants that create an atmosphere of peace.",
     image: "/images/fish.jpg",
-    facts: ["Живут 2-10 лет", "Успокаивают нервы"],
+    facts: ["Live 2-10 years", "Help reduce stress"],
   },
 ]
 
@@ -40,14 +40,14 @@ export function PetsGrid() {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <span className="text-sm font-medium text-primary uppercase tracking-wider">
-            Наши питомцы
+            Our Pets
           </span>
           <h2 className="font-serif text-3xl md:text-4xl font-bold text-foreground mt-2 text-balance">
-            Выберите своего идеального компаньона
+            Choose Your Perfect Companion
           </h2>
           <p className="text-muted-foreground mt-4 max-w-2xl mx-auto">
-            Каждый питомец уникален. Узнайте больше о разных видах домашних животных 
-            и найдите того, кто станет частью вашей семьи.
+            Each pet is unique. Learn more about different types of animals 
+            and find the one that will become part of your family.
           </p>
         </div>
 
@@ -82,7 +82,7 @@ export function PetsGrid() {
                     ))}
                   </div>
                   <div className="flex items-center text-primary font-medium text-sm group-hover:gap-2 transition-all">
-                    Подробнее
+                    Learn More
                     <ArrowRight className="ml-1 h-4 w-4 transition-transform group-hover:translate-x-1" />
                   </div>
                 </CardContent>

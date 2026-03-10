@@ -14,8 +14,8 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: 'Мир Домашних Животных | Всё о питомцах',
-  description: 'Информационный портал о домашних животных: уход, кормление, здоровье кошек, собак, птиц и других питомцев',
+  title: 'Pet World | Everything About Pets',
+  description: 'Information portal about pets: care, nutrition, health of cats, dogs, birds and other pets. Expert tips and answers to all your questions',
   generator: 'v0.app',
   icons: {
     icon: [

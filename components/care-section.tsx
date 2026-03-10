@@ -4,33 +4,33 @@ import { Heart, Utensils, Stethoscope, Home, Sparkles, BookOpen } from "lucide-r
 const careItems = [
   {
     icon: Utensils,
-    title: "Правильное питание",
-    description: "Сбалансированный рацион — основа здоровья питомца. Узнайте, чем кормить вашего любимца.",
+    title: "Proper Nutrition",
+    description: "A balanced diet is the foundation of your pet's health. Learn what to feed your companion.",
   },
   {
     icon: Stethoscope,
-    title: "Здоровье и ветеринария",
-    description: "Регулярные осмотры, вакцинация и профилактика заболеваний для долгой и счастливой жизни.",
+    title: "Health & Veterinary Care",
+    description: "Regular checkups, vaccinations, and disease prevention for a long and happy life.",
   },
   {
     icon: Home,
-    title: "Комфортное жильё",
-    description: "Создайте идеальные условия: место для сна, игровая зона и безопасное пространство.",
+    title: "Comfortable Living",
+    description: "Create ideal conditions: sleeping area, play zone, and safe space for your pet.",
   },
   {
     icon: Heart,
-    title: "Любовь и внимание",
-    description: "Общение и забота укрепляют связь между вами и питомцем, делая его счастливым.",
+    title: "Love & Attention",
+    description: "Interaction and care strengthen the bond between you and your pet, making them happy.",
   },
   {
     icon: Sparkles,
-    title: "Гигиена и уход",
-    description: "Чистка шерсти, уход за когтями и зубами — важные процедуры для здоровья питомца.",
+    title: "Hygiene & Grooming",
+    description: "Coat cleaning, nail care, and dental hygiene are important for your pet's health.",
   },
   {
     icon: BookOpen,
-    title: "Обучение и воспитание",
-    description: "Дрессировка и социализация помогут вашему питомцу стать послушным и дружелюбным.",
+    title: "Training & Education",
+    description: "Training and socialization help your pet become obedient and friendly.",
   },
 ]
 
@@ -41,14 +41,14 @@ export function CareSection() {
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <div>
             <span className="text-sm font-medium text-primary uppercase tracking-wider">
-              Уход за питомцами
+              Pet Care
             </span>
             <h2 className="font-serif text-3xl md:text-4xl font-bold text-foreground mt-2 mb-6 text-balance">
-              Как заботиться о вашем любимце
+              How to Care for Your Pet
             </h2>
             <p className="text-muted-foreground text-lg leading-relaxed mb-8">
-              Правильный уход — залог долгой и счастливой жизни вашего питомца. 
-              Мы собрали самые важные аспекты заботы о домашних животных.
+              Proper care is the key to a long and happy life for your pet. 
+              We've gathered the most important aspects of pet care.
             </p>
             
             <div className="space-y-4">
@@ -57,9 +57,9 @@ export function CareSection() {
                   <Heart className="h-5 w-5 text-primary" />
                 </div>
                 <div>
-                  <h4 className="font-semibold text-foreground mb-1">Регулярность — ключ к успеху</h4>
+                  <h4 className="font-semibold text-foreground mb-1">Consistency is Key</h4>
                   <p className="text-sm text-muted-foreground">
-                    Соблюдайте режим кормления, прогулок и игр. Питомцы любят предсказуемость.
+                    Maintain a schedule for feeding, walks, and play. Pets love predictability.
                   </p>
                 </div>
               </div>
@@ -68,9 +68,9 @@ export function CareSection() {
                   <Stethoscope className="h-5 w-5 text-accent" />
                 </div>
                 <div>
-                  <h4 className="font-semibold text-foreground mb-1">Профилактика лучше лечения</h4>
+                  <h4 className="font-semibold text-foreground mb-1">Prevention is Better</h4>
                   <p className="text-sm text-muted-foreground">
-                    Регулярные визиты к ветеринару помогут выявить проблемы на ранней стадии.
+                    Regular vet visits help catch problems early and keep your pet healthy.
                   </p>
                 </div>
               </div>

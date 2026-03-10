@@ -3,22 +3,22 @@ import { PawPrint, Mail, Phone, MapPin } from "lucide-react"
 
 const footerLinks = {
   pets: [
-    { label: "Кошки", href: "#cats" },
-    { label: "Собаки", href: "#dogs" },
-    { label: "Птицы", href: "#birds" },
-    { label: "Рыбки", href: "#fish" },
+    { label: "Cats", href: "#cats" },
+    { label: "Dogs", href: "#dogs" },
+    { label: "Birds", href: "#birds" },
+    { label: "Fish", href: "#fish" },
   ],
   resources: [
-    { label: "Статьи", href: "#" },
-    { label: "Советы", href: "#tips" },
-    { label: "Ветеринары", href: "#" },
-    { label: "Зоомагазины", href: "#" },
+    { label: "Articles", href: "#" },
+    { label: "Tips", href: "#tips" },
+    { label: "Veterinarians", href: "#" },
+    { label: "Pet Stores", href: "#" },
   ],
   company: [
-    { label: "О нас", href: "#" },
-    { label: "Контакты", href: "#contact" },
-    { label: "Реклама", href: "#" },
-    { label: "Партнёры", href: "#" },
+    { label: "About Us", href: "#" },
+    { label: "Contact", href: "#contact" },
+    { label: "Advertising", href: "#" },
+    { label: "Partners", href: "#" },
   ],
 }
 
@@ -31,31 +31,31 @@ export function Footer() {
             <Link href="/" className="flex items-center gap-2 mb-6">
               <PawPrint className="h-8 w-8 text-primary" />
               <span className="font-serif text-xl font-semibold">
-                Мир Питомцев
+                Pet World
               </span>
             </Link>
             <p className="text-background/70 mb-6 max-w-sm leading-relaxed">
-              Ваш надёжный источник информации о домашних животных. 
-              Помогаем владельцам питомцев с 2020 года.
+              Your trusted source for pet information. 
+              Helping pet owners since 2020.
             </p>
             <div className="space-y-3">
               <div className="flex items-center gap-3 text-background/70">
                 <Mail className="h-5 w-5" />
-                <span>info@mirpitomcev.ru</span>
+                <span>info@petworld.com</span>
               </div>
               <div className="flex items-center gap-3 text-background/70">
                 <Phone className="h-5 w-5" />
-                <span>+7 (999) 123-45-67</span>
+                <span>+1 (555) 123-45-67</span>
               </div>
               <div className="flex items-center gap-3 text-background/70">
                 <MapPin className="h-5 w-5" />
-                <span>Москва, Россия</span>
+                <span>New York, USA</span>
               </div>
             </div>
           </div>
 
           <div>
-            <h4 className="font-semibold mb-4">Питомцы</h4>
+            <h4 className="font-semibold mb-4">Pets</h4>
             <ul className="space-y-3">
               {footerLinks.pets.map((link) => (
                 <li key={link.label}>
@@ -71,7 +71,7 @@ export function Footer() {
           </div>
 
           <div>
-            <h4 className="font-semibold mb-4">Ресурсы</h4>
+            <h4 className="font-semibold mb-4">Resources</h4>
             <ul className="space-y-3">
               {footerLinks.resources.map((link) => (
                 <li key={link.label}>
@@ -87,7 +87,7 @@ export function Footer() {
           </div>
 
           <div>
-            <h4 className="font-semibold mb-4">Компания</h4>
+            <h4 className="font-semibold mb-4">Company</h4>
             <ul className="space-y-3">
               {footerLinks.company.map((link) => (
                 <li key={link.label}>
@@ -105,14 +105,14 @@ export function Footer() {
 
         <div className="border-t border-background/20 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-background/60 text-sm">
-            © 2024 Мир Питомцев. Все права защищены.
+            © 2024 Pet World. All rights reserved.
           </p>
           <div className="flex gap-6 text-sm">
             <Link href="#" className="text-background/60 hover:text-background transition-colors">
-              Политика конфиденциальности
+              Privacy Policy
             </Link>
             <Link href="#" className="text-background/60 hover:text-background transition-colors">
-              Условия использования
+              Terms of Service
             </Link>
           </div>
         </div>

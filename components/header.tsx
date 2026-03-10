@@ -5,11 +5,11 @@ import { useState } from "react"
 import { Menu, X, PawPrint } from "lucide-react"
 
 const navItems = [
-  { href: "#home", label: "Главная" },
-  { href: "#pets", label: "Питомцы" },
-  { href: "#care", label: "Уход" },
-  { href: "#tips", label: "Советы" },
-  { href: "#contact", label: "Контакты" },
+  { href: "#home", label: "Home" },
+  { href: "#pets", label: "Pets" },
+  { href: "#care", label: "Care" },
+  { href: "#tips", label: "Tips" },
+  { href: "#contact", label: "Contact" },
 ]
 
 export function Header() {
@@ -22,7 +22,7 @@ export function Header() {
           <Link href="/" className="flex items-center gap-2">
             <PawPrint className="h-8 w-8 text-primary" />
             <span className="font-serif text-xl font-semibold text-foreground">
-              Мир Питомцев
+              Pet World
             </span>
           </Link>
 
@@ -41,7 +41,7 @@ export function Header() {
           <button
             className="md:hidden p-2 text-foreground"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
-            aria-label="Меню"
+            aria-label="Menu"
           >
             {isMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
           </button>

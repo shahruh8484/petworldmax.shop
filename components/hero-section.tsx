@@ -11,43 +11,43 @@ export function HeroSection() {
             <div className="inline-flex items-center gap-2 px-4 py-2 bg-secondary rounded-full">
               <Heart className="h-4 w-4 text-accent" />
               <span className="text-sm font-medium text-secondary-foreground">
-                Любовь к животным объединяет
+                Love for animals brings us together
               </span>
             </div>
             
             <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl font-bold text-foreground leading-tight text-balance">
-              Всё о домашних <span className="text-primary">питомцах</span> в одном месте
+              Everything about <span className="text-primary">pets</span> in one place
             </h1>
             
             <p className="text-lg text-muted-foreground max-w-lg leading-relaxed">
-              Полезная информация об уходе, кормлении и здоровье ваших любимцев. 
-              Советы от экспертов и ответы на все ваши вопросы.
+              Helpful information about pet care, nutrition, and health. 
+              Expert advice and answers to all your questions.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4">
               <Button size="lg" className="group">
-                Узнать больше
+                Learn More
                 <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
               </Button>
               <Button size="lg" variant="outline">
-                Наши питомцы
+                Our Pets
               </Button>
             </div>
             
             <div className="flex items-center gap-8 pt-4">
               <div>
                 <div className="text-3xl font-bold text-foreground">500+</div>
-                <div className="text-sm text-muted-foreground">Статей</div>
+                <div className="text-sm text-muted-foreground">Articles</div>
               </div>
               <div className="h-12 w-px bg-border" />
               <div>
                 <div className="text-3xl font-bold text-foreground">50K+</div>
-                <div className="text-sm text-muted-foreground">Читателей</div>
+                <div className="text-sm text-muted-foreground">Readers</div>
               </div>
               <div className="h-12 w-px bg-border" />
               <div>
                 <div className="text-3xl font-bold text-foreground">100+</div>
-                <div className="text-sm text-muted-foreground">Экспертов</div>
+                <div className="text-sm text-muted-foreground">Experts</div>
               </div>
             </div>
           </div>
@@ -56,7 +56,7 @@ export function HeroSection() {
             <div className="relative aspect-[4/3] rounded-2xl overflow-hidden shadow-2xl">
               <Image
                 src="/images/hero-pets.jpg"
-                alt="Домашние питомцы"
+                alt="Happy pets with family"
                 fill
                 className="object-cover"
                 priority
@@ -68,8 +68,8 @@ export function HeroSection() {
                   <Heart className="h-6 w-6 text-primary" />
                 </div>
                 <div>
-                  <div className="font-semibold text-card-foreground">Счастливые питомцы</div>
-                  <div className="text-sm text-muted-foreground">Здоровье и радость</div>
+                  <div className="font-semibold text-card-foreground">Happy Pets</div>
+                  <div className="text-sm text-muted-foreground">Health and happiness</div>
                 </div>
               </div>
             </div>

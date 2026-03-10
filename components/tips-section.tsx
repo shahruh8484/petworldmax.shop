@@ -4,28 +4,28 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
 
 const faqs = [
   {
-    question: "Как часто нужно кормить кошку?",
-    answer: "Взрослую кошку рекомендуется кормить 2-3 раза в день. Котят до 6 месяцев кормят 3-4 раза в день, а после — переводят на взрослый режим. Важно соблюдать режим и не перекармливать питомца."
+    question: "How often should I feed my cat?",
+    answer: "Adult cats should be fed 2-3 times a day. Kittens under 6 months need 3-4 meals daily, then transition to adult feeding schedule. It's important to maintain a routine and avoid overfeeding your pet."
   },
   {
-    question: "Сколько раз в день нужно выгуливать собаку?",
-    answer: "Взрослую собаку нужно выгуливать минимум 2-3 раза в день. Продолжительность прогулки зависит от породы: активным собакам нужно не менее 1-2 часов в день, а маленьким породам достаточно 30-40 минут."
+    question: "How many times a day should I walk my dog?",
+    answer: "Adult dogs need at least 2-3 walks daily. Walk duration depends on breed: active dogs need 1-2 hours per day, while small breeds need 30-40 minutes. Adjust based on your dog's energy level."
   },
   {
-    question: "Какую клетку выбрать для попугая?",
-    answer: "Клетка должна быть достаточно просторной, чтобы птица могла расправить крылья. Минимальный размер для волнистого попугая — 60x40x40 см. Прутья должны быть горизонтальными, чтобы птица могла лазить. Не размещайте клетку на сквозняке или под прямыми солнечными лучами."
+    question: "What cage should I choose for a parakeet?",
+    answer: "The cage must be spacious enough for the bird to spread its wings. Minimum size for a budgie is 60x40x40 cm. Bars should be horizontal for climbing. Don't place the cage in drafts or direct sunlight."
   },
   {
-    question: "Как часто менять воду в аквариуме?",
-    answer: "Частичную подмену воды (20-30%) нужно делать раз в 1-2 недели. Полную замену воды делать не рекомендуется, так как это нарушает биобаланс. Используйте отстоянную воду комнатной температуры."
+    question: "How often should I change aquarium water?",
+    answer: "Do partial water changes (20-30%) every 1-2 weeks. Avoid complete water changes as this disrupts the biological balance. Use dechlorinated water at room temperature."
   },
   {
-    question: "Когда делать первые прививки котёнку или щенку?",
-    answer: "Первую комплексную вакцинацию проводят в возрасте 2-2,5 месяцев, ревакцинацию — через 3-4 недели. Прививку от бешенства делают в 3 месяца. До вакцинации нельзя выгуливать питомца и допускать контакт с другими животными."
+    question: "When should I vaccinate my kitten or puppy?",
+    answer: "First vaccination at 2-2.5 months, with booster 3-4 weeks later. Rabies vaccination at 3 months. Avoid walks and contact with other animals before vaccination."
   },
   {
-    question: "Как приучить котёнка к лотку?",
-    answer: "Поставьте лоток в тихое, доступное место. Сажайте котёнка в лоток после сна и еды. Используйте наполнитель без резкого запаха. Хвалите за успехи и никогда не наказывайте за промахи. Обычно котята учатся за 1-2 недели."
+    question: "How do I potty train my kitten?",
+    answer: "Place the litter box in a quiet, accessible location. Put kitten in box after meals and sleep. Use unscented litter. Praise successes and never punish accidents. Usually learned in 1-2 weeks."
   },
 ]
 
@@ -36,13 +36,13 @@ export function TipsSection() {
         <div className="max-w-3xl mx-auto">
           <div className="text-center mb-12">
             <span className="text-sm font-medium text-primary uppercase tracking-wider">
-              Полезные советы
+              Helpful Tips
             </span>
             <h2 className="font-serif text-3xl md:text-4xl font-bold text-foreground mt-2 text-balance">
-              Часто задаваемые вопросы
+              Frequently Asked Questions
             </h2>
             <p className="text-muted-foreground mt-4">
-              Ответы на популярные вопросы о содержании домашних животных
+              Answers to popular questions about pet care
             </p>
           </div>
 
